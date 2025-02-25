@@ -1,6 +1,5 @@
 # Resume Analyzer (ATS Tracking System)
 
-![Logo](logo.png)
 
 The **Resume Analyzer** is a Streamlit-based web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). It uses Google's Gemini AI to analyze resumes and provide feedback based on a given job description. The app evaluates the resume's alignment with the job requirements, highlights strengths and weaknesses, and provides a percentage match score.
 
@@ -43,30 +42,32 @@ The **Resume Analyzer** is a Streamlit-based web application designed to help jo
    git clone https://github.com/your-username/resume-analyzer.git
    cd resume-analyzer
 
-   Set Up a Virtual Environment (Optional but Recommended):
 
- ```bash
-Copy
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies:
+2. Set Up a Virtual Environment (Optional but Recommended):
 
- ```bash
-Copy
+```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install Dependencies:
+```bash
 pip install -r requirements.txt
-Set Up Environment Variables:
+```
+
+4.Set Up Environment Variables:
 
 Create a .env file in the root directory.
 
-Add your Google Generative AI API key:
-
-plaintext
-Copy
+5. Add your Google Generative AI API key:
+```bash
 GOOGLE_API_KEY=your_api_key_here
+```
+
 Run the App:
 
- ```bash
-Copy
+```bash
+
 streamlit run app.py
  ```
 
@@ -92,5 +93,5 @@ For questions or feedback, feel free to reach out:
 # GitHub: AyushRaut01
 
 Live Demo
-Check out the live demo of the app here (if deployed).
+Check out the live demo of the app here .
 
